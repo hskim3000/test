@@ -1,0 +1,10 @@
+//원격저장소 등록
+git remote add test https://github.com/hskim3000/test.git
+git remote -v
+
+//당기기
+git pull test master
+
+//올리기
+git push
+git push --set-upstream test master
